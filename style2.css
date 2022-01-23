@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(BG.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+
+.logo img{
+    width: 76px;
+    height: auto;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.title{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.p{
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.p p{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+.p p a{
+    color: #0645AD;
+}
+
+.follow{
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 122%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    word-spacing: 25px;
+    font-size: 27px;
+}
+
+.follow li{
+    display: inline-block;
+}
+
+.fus{
+    position: absolute;
+    top:107%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+}
+
+
+
+.follow .t{
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.follow .t:hover{
+    color: rgb(108, 196, 231);
+}
+
+.follow .yt{
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.follow .yt:hover{
+    color: #f10;
+}
+
+.follow .d{
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.follow .d:hover{
+    color: rgb(52, 52, 214);
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+}
+
+.logo2 img{
+    width: 76px;
+    height: auto;
+    position: absolute;
+    top: 108%;
+    left: 3%;
+    transform: translate(-50%,-50%);
+}
+
+footer p{
+    position: absolute;
+    top: 122%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+}
+
+.under{
+    width: 100%;
+    height: 5px;
+    background-color: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    overflow: hidden;
+}
+
+.under span{
+    width: 15px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+
+
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
